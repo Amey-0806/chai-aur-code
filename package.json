@@ -10,11 +10,16 @@
   "license": "ISC",
   "author": "amey",
   "type": "module",
-  "main": "index.js",
-  "scripts": {  
-    "dev":"nodemon src/index.js"
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.2"
   }
 }
